@@ -21,7 +21,7 @@
 
       <CartSidebar />
       <WishlistSidebar />
-      <LoginModal />
+      <AuthModal />
     </div>
   </div>
 </template>
@@ -33,7 +33,7 @@ import AppFooter from '~/components/AppFooter.vue';
 import TopBar from '~/components/TopBar.vue';
 import CartSidebar from '~/components/CartSidebar.vue';
 import WishlistSidebar from '~/components/WishlistSidebar.vue';
-import LoginModal from '~/components/LoginModal.vue';
+import AuthModal from '~/components/AuthModal.vue';
 import LazyHydrate from 'vue-lazy-hydration';
 
 export default {
@@ -45,7 +45,7 @@ export default {
     AppFooter,
     CartSidebar,
     WishlistSidebar,
-    LoginModal
+    AuthModal
   }
 };
 </script>
